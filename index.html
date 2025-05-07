@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-overlay"></div>
+
+  <header>
+    <div class="container">
+      <h1>Hi, I'm <span class="highlight">Prakriti Tiwari</span></h1>
+      <p>Frontend Developer | Python & Java Enthusiast | ECE Student</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am an ECE (Electronics and Communication Engineering) student who loves coding and development. Although my core branch is ECE, I am highly passionate about programming and enjoy building technical projects, especially using Python and JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>High School :</strong> Takshashila Public School, Sidhi (2020) - <strong>93.4%</strong></li>
+        <li><strong>Higher Secondary :</strong> Maruti Higher Secondary School, Rewa (2022) - <strong>84.8%</strong></li>
+        <li><strong>B.Tech:</strong> UIT RGPV Bhopal (Ongoing) - <strong>ECE</strong> Branch</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <h3>Programming Languages</h3>
+      <ul class="skills-list">
+        <li>Java</li>
+        <li>Python</li>
+      </ul>
+      <h3>Frontend Development</h3>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <h3>Core Subjects</h3>
+      <ul class="skills-list">
+        <li>OOPS</li>
+        <li>DSA</li>
+      </ul>
+      <h3>Tools & Platforms</h3>
+      <ul class="skills-list">
+        <li>GitHub</li>
+        <li>Visual Studio Code (VS Code)</li>
+        <li>Eclipse</li>
+        <li>PyCharm</li>
+        <li>Google Colab</li>
+        <li>Jupyter Notebook</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Hand Gesture Drawing App (Python)</h3>
+        <p>A Python project using OpenCV and MediaPipe that allows users to draw on the screen using hand gestures in front of a webcam. It detects fingertips and tracks movement to simulate drawing.</p>
+      </div>
+      <div class="project">
+        <h3>Responsive Portfolio Website</h3>
+        <p>This beautiful and interactive portfolio website, built using HTML, CSS, and JavaScript, showcases my work and skills in a clean and modern UI.</p>
+      </div>
+      <div class="project">
+        <h3>Digital Clock App (Java)</h3>
+        <p>A digital clock made using Java and Swing that displays real-time time and date.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Building the future, one line of code at a time. Join me on this exciting journey.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
